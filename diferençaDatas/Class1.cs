@@ -15,7 +15,7 @@ namespace diferençaDatas
         {
             Data datas = new Data();
             string digitado = "";
-            DateTime data=DateTime.Parse(digitado);
+            
             datas.primeiraData = DateTime.Now;
             Console.Write("Escreva a segunda Data: ");
             digitado = Console.ReadLine();
