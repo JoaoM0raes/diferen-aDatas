@@ -25,7 +25,7 @@ namespace diferençaDatas
         }
         public void validarData()
         {
-
+            int a = 0;
             Data data = inserirData();
             TimeSpan interval = data.primeiraData - data.segundaData;        
 
